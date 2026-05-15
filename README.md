@@ -1,7 +1,5 @@
 # AC Motor Starter Circuit for Industrial Applications
 
-![Proteus Simulation](images/simulation.png)  <!-- optional -->
-
 A microcontroller-based AC motor starter with forward/reverse control, thermal overload protection, and emergency stop – designed as a **Complex Engineering Activity** for the Electromechanical Systems Lab at FAST University.
 
 ## 📌 Features
