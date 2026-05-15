@@ -22,14 +22,14 @@ A microcontroller-based AC motor starter with forward/reverse control, thermal o
 | **Switching** | 8‑Channel Relay Module + 4‑Channel Relay Module |
 | **Sensing** | Thermistor (for temperature/overload simulation) |
 | **Simulation** | Proteus, MATLAB |
-| **Others** | Push buttons, LEDs, 3‑phase AC motor (simulated coils), AC voltmeters/ammeters |
+| **Others** | Push buttons, LEDs (with current‑limiting resistors), 3‑phase AC motor (simulated coils), AC voltmeters/ammeters |
 
 ---
 
 ## 🔧 How It Works
 
 1. **Input Stage**  
-   - Four push buttons (Forward, Reverse, Stop, Emergency Stop) connected to Arduino digital pins with 10kΩ pull-down resistors.  
+   - Four push buttons (Forward, Reverse, Stop, Emergency Stop) connected directly to Arduino digital pins – internal pull‑up resistors enabled in software, no external resistors required.  
    - Thermistor forms a voltage divider with a 10kΩ resistor, feeding analog data to pin A0 to monitor motor temperature.
 
 2. **Processing Stage**  
@@ -61,16 +61,15 @@ A microcontroller-based AC motor starter with forward/reverse control, thermal o
 
 *All logic was validated in both Proteus and MATLAB.*
 
-
 ---
 
 ## 👥 Team
 
-- Muhammad Shariq (24K-6084)
-- Muhammad Ali Siddiqui (24K-6121)
-- **Syed Muneeb Ahmed (24K-6030)**  
-- Abdullah Hussain (24K-6037)
-- Syed Hassaan Ali (24K-6106)
+- [Muhammad Shariq](https://www.linkedin.com/in/muhammad-shariq-715653344) (24K-6084)
+- [Muhammad Ali Siddiqui](https://www.linkedin.com/in/muhammad-ali-42524a40b) (24K-6121)
+- [Syed Muneeb Ahmed](https://www.linkedin.com/in/syed-muneeb-ahmed-027950393) (24K-6030)
+- [Abdullah Hussain](https://www.linkedin.com/in/abdullah-hussain-19422b380) (24K-6037)
+- [Syed Hassaan Ali](https://www.linkedin.com/in/hassaan-ali-685973305) (24K-6106)
 
 ---
 
