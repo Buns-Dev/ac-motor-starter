@@ -2,10 +2,6 @@
 
 A microcontroller-based AC motor starter with forward/reverse control, thermal overload protection, and emergency stop – designed as a **Complex Engineering Activity** for the Electromechanical Systems Lab at FAST University.
 
-![Proteus Simulation](images/simulation.png)  
-*(Add a screenshot of your Proteus simulation later – optional)*
-
----
 
 ## 📌 Features
 
