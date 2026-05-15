@@ -93,5 +93,3 @@ This project is for educational purposes only.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/syed-muneeb-ahmed-027950393)  
 [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github)](https://github.com/Buns-Dev)
-
-"This is the whole code?"
